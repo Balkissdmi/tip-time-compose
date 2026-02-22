@@ -126,6 +126,9 @@ Améliorations :
 - Champ sur une seule ligne
 
 ---
+<p align="center">
+  <img src="assets/images/home_empty.png" width="300"/>
+</p>
 
 # 🧮 Étape 5 — Calcul du pourboire
 
@@ -144,6 +147,9 @@ Conversion sécurisée :
 ```kotlin
 val amount = amountInput.toDoubleOrNull() ?: 0.0
 ```
+<p align="center">
+<img src="assets/images/input_100.png" width="300"/>
+</p>
 
 ---
 
