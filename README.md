@@ -4,6 +4,7 @@
 > **Étudiante :** Balkiss Doulemi  
 > **Classe :** IAM  
 > **Date :** 22-02-2026  
+<<<<<<< HEAD
 
 ---
 
@@ -35,8 +36,12 @@ Ce fichier contient les chaînes utilisées dans l’application (bonne pratique
    <string name="bill_amount">Bill Amount</string>
    <string name="tip_amount">Tip Amount: %s</string>
 </resources>
+=======
+>>>>>>> 978df37 (Add screenshots to README)
 
+---
 
+<<<<<<< HEAD
 🔎 Utilisation des ressources string 
 
 Le `%s` dans `tip_amount` permet d’afficher une valeur dynamique (le pourboire calculé).
@@ -310,3 +315,33 @@ Montre :
 ---
 
 🚀 Projet réalisé avec **Jetpack Compose**
+=======
+## 🎯 Présentation du projet
+
+**Tip Time** est une application Android simple qui permet à l’utilisateur de :
+- saisir le **montant d’une facture**,
+- calculer automatiquement un **pourboire** (15% par défaut),
+- afficher le résultat en **format monétaire**.
+
+L’application est développée en **Kotlin** avec **Jetpack Compose**, donc l’interface est **déclarative** :  
+➡️ *l’UI dépend de l’état*, et quand l’état change, Compose met à jour l’affichage via la **recomposition**.
+
+✅ **[Capture 1 — Application]** Écran de démarrage (starter) :  
+Deux textes visibles : **"Calculate Tip"** et **"Tip Amount: $0.00"** (sans champ de saisie).
+
+---
+
+## 🧩 Fichiers importants du projet
+
+### 1) `res/values/strings.xml`
+
+Ce fichier contient les chaînes utilisées dans l’application (bonne pratique : éviter le texte “en dur” dans le code).
+
+```xml
+<resources>
+   <string name="app_name">Tip Time</string>
+   <string name="calculate_tip">Calculate Tip</string>
+   <string name="bill_amount">Bill Amount</string>
+   <string name="tip_amount">Tip Amount: %s</string>
+</resources>
+>>>>>>> 978df37 (Add screenshots to README)
